@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "b43f3c3e-5422-4cd0-89d4-d04e6292afbd", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "6e80977e-ca64-445b-9659-8d5481e8082e", // The ID of your service instance.
+        onLoad: async (instance) => {
+          await instance.render();
+        },
+      };
+      setTimeout(function () {
+        const t = document.createElement("script");
+        t.src =
+          "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+          (window.watsonAssistantChatOptions.clientVersion || "latest") +
+          "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </head>
+  <body>
+    <div class="side">
+      <a href="#" class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </a>
+      <div class="profile">
+        <div class="profile-img">
+          <img src="img/profile.jpg" alt="profile" />
+        </div>
+      </div>
+        <div class="name">
+          <h1>Dua User</h1>
+          <img src="img/verify.png" alt="verify" />
+        </div>
+        <span>@User</span>
+      </div>
+      
+      <!--Menu-->
+      <div class="menu">
+        <a href="#" class="active">
+          <span class="icon">
+            <i class="ri-function-line"></i>
+          </span>
+          feed
+        </a>
+
+        <a href="#">
+          <span class="icon">
+            <i class="ri-notification-4-line"></i>
+          </span>
+          Notification
+        </a>
+        <a href="#">
+          <span class="icon">
+            <i class="ri-search-line"></i>
+          </span>
+          Explore
+        </a>
+        <a href="#">
+          <span class="icon">
+            <i class="ri-mail-unread-fill"></i>
+          </span>
+          Message
+        </a>
+        <a href="#">
+          <span class="icon">
+            <i class="ri-send-plane-fill"></i>
+          </span>
+          Direct
+        </a>
+        <a href="#">
+          <span class="icon">
+            <i class="ri-bar-chart-2-fill"></i>
+          </span>
+          Stats
+        </a>
+        <a href="#">
+          <span class="icon"> <i class="ri-settings-4-line"></i> </span>
+          Setting
+        </a>
+        <a href="#">
+          <span class="icon"> <i class="ri-logout-box-r-line"></i> </span>
+          Logout
+        </a>
+      </div>
+    
+    <!--main home-->
+    <div class="main-home">
+      <div class="header">
+        <!--search-->
+        <div class="Search">
+          <i class="ri-search-line"></i>
+          <input type="text" name="" id="" placeholder="Search" />
+        </div>
+        <div class="header-content">
+          <i class="ri-notification-4-line"></i>
+          <i class="ri-mail-unread-fill"></i>
+          <!--button-->
+          <a href="#" class="btn">
+            <i class="ri-add-circle-fill"></i>
+            <div class="btn-text">
+              Add Photos
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="stories-title">
+        <h1>Storie</h1>
+        <a href="#" class="btn">
+            <i class="ri-play-circle-line"></i>
+            <div class="text">
+              Watch all
+            </div>
+        </a>
+        
+      </div>
+      <div class="stories">
+          <!--stories1-->
+     <div class="stories-img color">
+       <img src="img/profile.jpg" alt="profile">
+       <div class="add">+</div>
+     </div>
+            <!--stories2-->
+     <div class="stories-img ">
+        <img src="img/profile2.jpg" alt="profile">
+      </div>
+          <!--stories3-->
+     <div class="stories-img ">
+        <img src="img/profile3.jpg" alt="profile">
+      </div>
+          <!--stories4-->
+     <div class="stories-img ">
+        <img src="img/profile4.jpg" alt="profile">
+      </div>
+          <!--stories5-->
+     <div class="stories-img ">
+        <img src="img/profile5.jpg" alt="profile">
+      </div>
+          <!--stories6-->
+     <div class="stories-img ">
+        <img src="img/profile6.jpg" alt="profile">
+      </div>
+          <!--stories7-->
+     <div class="stories-img ">
+        <img src="img/profile7.jpg" alt="profile">
+      </div>
+      <!--stories8-->
+      <div class="stories-img ">
+        <img src="img/profile8.jpg" alt="profile">
+      </div>
+       <!--stories9-->
+     <div class="stories-img ">
+      <img src="img/profile9.jpg" alt="profile">
+    
+
+
+        </div>
+          </a>
+      </div>
+     
+
+      <div class="main-post">
+        <!--box1-->
+        <div class="post-box">
+          <img src="img/post1.jpg" alt="post">
+          <div class="post-info">
+            <div class="post-profile">
+              <div class="post-img">
+                <img src="img/profile9.jpg" alt="profile">
+              </div>
+              <h3>aditya_stylish_boy</h3>
+            </div>
+            <div class="likes">
+              <i class="ri-heart-line"></i>
+              <span>10.4M</span>
+              <i class="ri-chat-3-line"></i>
+              <span>991k</span>
+            </div>
+          </div>
+          <!--box2-->
+        <div class="post-box">
+          <img src="img/post2.jpg" alt="post">
+          <div class="post-info">
+            <div class="post-profile">
+              <div class="post-img">
+                <img src="img/profile7.jpg" alt="profile">
+              </div>
+              <h3>aditya_stylish_boy</h3>
+            </div>
+            <div class="likes">
+              <i class="ri-heart-line"></i>
+              <span>8.2M</span>
+              <i class="ri-chat-3-line"></i>
+              <span>882k</span>
+            </div>
+          </div>
+                  <!--box3-->
+        <div class="post-box">
+          <img src="img/post3.jpg" alt="post">
+          <div class="post-info">
+            <div class="post-profile">
+              <div class="post-img">
+                <img src="img/profile6.jpg" alt="profile">
+              </div>
+              <h3>aditya_stylish_boy</h3>
+            </div>
+            <div class="likes">
+              <i class="ri-heart-line"></i>
+              <span>584.4k</span>
+              <i class="ri-chat-3-line"></i>
+              <span>88.3k</span>
+            </div>
+          </div>
+    
+                  
+        </div>
+      </div>
+    </div>
+   
+  </body>
+</html>
